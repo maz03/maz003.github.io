@@ -1,0 +1,205 @@
+/*Remove all default css styles*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	rgb(192,192,192);
+	background: linear-gradient(0deg, rgba(169,169,169,1) 25%, rgba(255,255,255,1) 100%);
+	font-family: "Oswald", sans-serif;
+}
+
+header{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	background: rgb(192,192,192);
+	background: linear-gradient(0deg, rgba(169,169,169,1) 25%, rgba(255,255,255,1) 100%);
+}
+
+#logo{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+#brand{
+	display: flex;
+	font-size: 500%;
+	color: blue;
+	text-shadow: 2px 2px powderblue;
+	padding-right: 500px;	
+}
+
+#loudmusic{
+	align-content: center;
+	padding-right: 100px;
+}
+
+main{
+	background: rgb(192,192,192);
+	background: linear-gradient(0deg, rgba(169,169,169,1) 25%, rgba(255,255,255,1) 100%);
+	padding: 10px 10px 10px 10px;
+}
+
+.content-row{
+	border: 3px blue solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 235px;
+}
+
+div img{
+	display: inline-block;
+	height: 100%;
+	width: 45%;
+	position: relative;
+	float: right;
+}
+
+.content-heading {
+	display: inline-block;
+	width: 10%;
+	height: 229px;
+	line-height: 229px;
+	background-color: powderblue;
+	font-size: 30px;
+}
+/*Home page main headings*/
+#movies {
+	padding-left: 50px;
+}
+
+#series {
+	padding-left: 50px;
+}
+
+#trending {
+	padding-left: 40px;
+}
+
+/*Movies page main headings*/
+#kids {
+	padding-left: 65px;
+}
+
+#retro {
+	padding-left: 55px;
+}
+
+#blockbuster {
+	padding-left: 20px;
+}
+
+/*Series page main headings*/
+#sitcom {
+	padding-left: 50px;
+}
+
+#anime {
+	padding-left: 50px;
+}
+
+#drama {
+	padding-left: 50px;
+}
+
+/*Trending page main headings*/
+#nz {
+	padding-left: 70px;
+}
+
+#worldwide {
+	padding-left: 25px;
+}
+
+#forkids {
+	padding-left: 40px;
+}
+	
+footer{
+	background-color: rgba(124,173,227,1);
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+footer h1{
+	text-align: center;
+	color: black;
+}
+
+h3{
+	color: blue
+}
+
+p{
+	text-align: justify;
+	color: black;
+	font-weight: normal;
+}
+
+/*Define styles for nav bar*/
+nav{
+	background-color: rgb(124,173,227);
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: no;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 25px;
+}
+
+nav ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 140px;
+	text-decoration: none;
+}
+
+.active{
+	background-color: blue;
+}
+
+nav ul li a:hover:not(.active){
+	background-color: lightblue
+}
+
+/*About us page*/
+
+.container {
+	display: inline-block;
+	text-align: justify;
+	width: 50%;
+	padding: 10px 30px 10px 30px;
+	text-align: center;
+}
+
+.container h1 {
+	font-size: 100px;
+}
+
+.container p{
+	font-size: 50px;
+}
+
+/*Newsletter Subscription Design*/
+
+.newsletter {
+	text-align: center;
+	background-color: powderblue;
+}
+
+
+
+
